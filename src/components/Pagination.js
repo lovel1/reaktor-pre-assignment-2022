@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react"
 import ReactPaginate from "react-paginate"
-import { useEffect, useState } from "react/cjs/react.development"
+import { useEffect, useState } from "react"
 
 export const Pagination = ({items, setPaginatedItems, itemsPerPage, origin}) => {
     const [pageCount, setPageCount] = useState(0)
